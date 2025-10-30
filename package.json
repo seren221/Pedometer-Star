@@ -1,0 +1,29 @@
+{
+  "name": "stepstar",
+  "version": "1.0.0",
+  "description": "计步星快应用",
+  "main": "index.js",
+  "scripts": {
+    "build": "hap build",
+    "release": "hap release",
+    "watch": "hap watch",
+    "debug": "hap debug"
+  },
+  "keywords": [
+    "quickapp",
+    "stepstar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@babel/preset-env": "^7.28.3",
+    "@types/quickapp": "npm:quickapp-interface@^1.0.0",
+    "hap-toolkit": "^0.6.0",
+    "html-docx-js": "^0.3.1",
+    "html-to-docx": "^1.6.0"
+  },
+  "browserslist": [
+    "chrome 65"
+  ]
+}
